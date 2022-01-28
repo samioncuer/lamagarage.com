@@ -1,15 +1,17 @@
 <html>
     <head>
         <!-- title -->
+        <meta http-equiv="Content-Language" content="tr">
+	    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9">
         <title>lamagarage</title>
-        <meta charset="utf-8">
+        <!-- <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
         <meta name="author" content="ThemeZaa">
-        <!-- description -->
-        <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
+        <!-- description 
+        <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos."> -->
         <!-- keywords -->
-        <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+        <meta name="keywords" content="creative, modern, clean, design, studio, css3, agency">
         <!-- favicon -->
         <link rel="icon" href="./../img/lama-baslık.png" type="image/x-icon">
         <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -169,6 +171,7 @@
 	    $mail->IsSMTP();
 	    $mail->Host = "mail.lamagarage.com";
 	    $mail->SMTPAuth = true;
+        $mail->CharSet = 'utf-8';
 	    $mail->Username = "robot@lamagarage.com";
 	    $mail->Password = "yIt7(uCc2)";
 	    $mail->From = "info@lamagarage.com";
